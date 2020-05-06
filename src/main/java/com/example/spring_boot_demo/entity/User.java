@@ -1,4 +1,4 @@
-package com.example.spring_boot_demo.kafka;
+package com.example.spring_boot_demo.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -18,4 +18,5 @@ import java.io.Serializable;
 public class User implements Serializable {
     private int id;
     private String userName;
+    private int age;
 }

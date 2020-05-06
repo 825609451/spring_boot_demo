@@ -1,5 +1,6 @@
 package com.example.spring_boot_demo.kafka;
 
+import com.example.spring_boot_demo.entity.User;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
