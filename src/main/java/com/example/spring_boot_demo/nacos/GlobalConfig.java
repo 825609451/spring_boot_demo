@@ -8,15 +8,13 @@ import javax.annotation.PostConstruct;
 
 /**
  * @ClassName : ConfigData
- * @Description : 获取通用配置信息入口
+ * @Description : 获取通用配置信息入口,用于隐藏NacosConfigData暴露
  * @Author : sky
  * @Date: 2020-05-07 16:24
  */
 @Component
 public class GlobalConfig {
-
-   static  NacosConfigData config;
-
+   private static  NacosConfigData config;
    @Autowired
    private NacosConfigData nacosConfig;
 
