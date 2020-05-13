@@ -16,7 +16,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @ToString
 public class User implements Serializable {
-    private int id;
+    private Integer id;
     private String userName;
-    private int age;
+    private Integer age;
 }
